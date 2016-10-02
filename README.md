@@ -1,5 +1,5 @@
-# Clase-7
-Tienda de videojuegos 
+# Fp1111-16
 
 
-FP1111 alu19 FI-UNAM
+Facultad de Ingenieria-UNAM
+Granados Johan
