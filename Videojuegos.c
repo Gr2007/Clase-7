@@ -11,8 +11,8 @@ en una tienda de videojuegos*/
 
 int main (int argc,char* argv []) //Funcion principial
 {//abre funcion principal 
-	unsigned char nombre[30]; //declaro variable el nombre 
-    float compra1=0; //declaro variables el numero de videojuegos
+	unsigned char nombre[30]=['\0']; //declaro variable el nombre 
+    	float compra1=0; //declaro variables el numero de videojuegos
 	float compra2=0;
 	float compra3=0;
 	float compra4=0;
@@ -30,7 +30,7 @@ int main (int argc,char* argv []) //Funcion principial
     	printf("\n\t %c%c==============================================%c%c",200,205,205,188);
 
 	printf("\n\t%cCual es tu nombre?\n\t",62); //pido nombre
-	scanf( "%s", &nombre); //leo nombre 
+	scanf( " %[^\n]", &nombre); //leo nombre 
     	printf("\n\t Hola %s\n",nombre); //imprimo nombre
 
     	printf("\n\t Cuantos videojuegos de la categor%ca 1 ($199) desea comprar?\n\t",161);//pido videojuegos de la categoria 1
