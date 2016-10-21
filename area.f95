@@ -1,5 +1,5 @@
 ! Calcular la longitud de una circunferencia a partir de su radio. (Usar C= 2*π*r )
-! Hecho por Luis Fernando Bravo Chavez
+! Hecho por Gr2
 
 !abre programa en fortran con nombre holaMundo
 program LongitudCircunferencia
