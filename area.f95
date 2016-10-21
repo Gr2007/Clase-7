@@ -13,7 +13,7 @@ program LongitudCircunferencia
     read*, r
     c= 2*pi*r
     print*, ''
-    print*,  'La longitud es: ',c,''
+    print*,  'La longitud es: ',c
 
 !Se cierra el programa
 end program LongitudCircunferencia
