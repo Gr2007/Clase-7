@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1479255764 source:/home/johan/Prob4/Prob4/main.c
+	<stdio.h>
+	"Matriz.h"
+
+1479255418 /home/johan/Prob4/Prob4/Matriz.h
+	<stdio.h>
+
